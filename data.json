@@ -1,0 +1,392 @@
+{
+  "updatedAt": "2026-08-31T13:19:06.354Z",
+  "free": [
+    {
+      "provider": "nvidia_nim",
+      "type": "permanent",
+      "register_url": "https://build.nvidia.com/settings/api-keys",
+      "note": "免费模型 126 个 · 上下文 1M · 模态 audio, embedding, image, reasoning, rerank, text, video, vision",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "modelscope",
+      "type": "permanent",
+      "register_url": "https://modelscope.cn/my/myaccesstoken",
+      "note": "免费模型 59 个 · 上下文 1M · 模态 audio, image, reasoning, text, video, vision",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "github_models",
+      "type": "permanent",
+      "register_url": "https://github.com/marketplace/models",
+      "note": "免费模型 16 个 · 上下文 1M · 模态 image, pdf, reasoning, text",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "llm7_io",
+      "type": "permanent",
+      "register_url": "https://token.llm7.io",
+      "note": "免费模型 16 个 · 上下文 1M · 模态 audio, code, image, pdf, reasoning, text, video, vision",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "ovhcloud_ai_endpoints",
+      "type": "permanent",
+      "register_url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/",
+      "note": "免费模型 14 个 · 上下文 262K · 模态 audio, code, image, reasoning, text, video",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "ollama_cloud",
+      "type": "permanent",
+      "register_url": "https://ollama.com/settings/keys",
+      "note": "免费模型 13 个 · 上下文 1M · 模态 code, image, reasoning, text, video, vision",
+      "needs_proxy": false,
+      "review": "unknown",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "cohere",
+      "type": "permanent",
+      "register_url": "https://dashboard.cohere.com/api-keys",
+      "note": "免费模型 12 个 · 上下文 436K · 模态 image, text",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "kilo_code",
+      "type": "permanent",
+      "register_url": "https://kilo.ai",
+      "note": "免费模型 12 个 · 上下文 1M · 模态 audio, code, image, reasoning, text, video",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "opencode_zen",
+      "type": "permanent",
+      "register_url": "https://opencode.ai/auth",
+      "note": "免费模型 12 个 · 上下文 1M · 模态 audio, reasoning, vision",
+      "needs_proxy": false,
+      "review": "unknown",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "aion_labs",
+      "type": "permanent",
+      "register_url": "https://www.aionlabs.ai",
+      "note": "免费模型 7 个 · 上下文 131K",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "agnes_ai",
+      "type": "permanent",
+      "register_url": "https://platform.agnes-ai.com/settings/apiKeys",
+      "note": "免费模型 5 个 · 上下文 256K · 模态 image, text, video, vision",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "alibaba_cloud_model_studio",
+      "type": "permanent",
+      "register_url": "https://bailian.console.alibabacloud.com/?apiKey=1",
+      "note": "免费模型 5 个 · 上下文 1M · 模态 code, image, text",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "z_ai",
+      "type": "permanent",
+      "register_url": "https://open.bigmodel.cn/usercenter/apikeys",
+      "note": "免费模型 4 个 · 上下文 200K · 模态 image, reasoning, text, video",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "sambanova",
+      "type": "permanent",
+      "register_url": "https://cloud.sambanova.ai/apis",
+      "note": "免费模型 4 个 · 上下文 128K · 模态 image, reasoning, text",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "siliconflow",
+      "type": "permanent",
+      "register_url": "https://cloud.siliconflow.cn/account/ak",
+      "note": "免费模型 3 个 · 上下文 131K",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "cn_phone",
+        "email"
+      ]
+    },
+    {
+      "provider": "ai21_labs",
+      "type": "permanent",
+      "register_url": "https://studio.ai21.com/account/api-key",
+      "note": "免费模型 2 个 · 上下文 256K",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "nebius",
+      "type": "permanent",
+      "register_url": "https://studio.nebius.com/settings/api-keys",
+      "note": "免费模型 1 个 · 上下文 128K",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "openrouter",
+      "type": "daily",
+      "register_url": "https://openrouter.ai/workspaces/default/keys",
+      "note": "免费模型 29 个 · 上下文 1M · 额度 Free tier + $10 topup → 1K RPD · 模态 audio, code, embeddings, image, reasoning, rerank, speech, text, video",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "nscale",
+      "type": "permanent",
+      "register_url": "https://console.nscale.com/",
+      "note": "免费模型 2 个 · 上下文 128K",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "cloudflare_workers_ai",
+      "type": "permanent",
+      "register_url": "https://dash.cloudflare.com/profile/api-tokens",
+      "note": "免费模型 40 个 · 上下文 10M · 模态 code, image, reasoning, text, video",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "groq",
+      "type": "permanent",
+      "register_url": "https://console.groq.com/keys",
+      "note": "免费模型 12 个 · 上下文 262K · 模态 image, reasoning, text",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "mistral_ai",
+      "type": "permanent",
+      "register_url": "https://console.mistral.ai/api-keys",
+      "note": "免费模型 12 个 · 上下文 256K · 模态 code, image, text",
+      "needs_proxy": true,
+      "review": "confirmed"
+    },
+    {
+      "provider": "cerebras",
+      "type": "permanent",
+      "register_url": "https://cloud.cerebras.ai/",
+      "note": "免费模型 6 个 · 上下文 131K · 模态 reasoning, text",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "xai",
+      "type": "trial",
+      "register_url": "https://console.x.ai",
+      "note": "新用户或有一次性能额度（促销性质，非永久免费），以官方为准",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "glhf_chat",
+      "type": "permanent",
+      "register_url": "https://glhf.chat/",
+      "note": "免费模型 2 个 · 上下文 131K",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "google_gemini",
+      "type": "permanent",
+      "register_url": "https://aistudio.google.com/app/apikey",
+      "note": "免费模型 10 个",
+      "review": "confirmed"
+    },
+    {
+      "provider": "hugging_face",
+      "type": "permanent",
+      "register_url": "https://huggingface.co/settings/tokens",
+      "note": "免费模型 6 个",
+      "review": "confirmed"
+    },
+    {
+      "provider": "zhipu",
+      "type": "permanent",
+      "quota": "新用户注册送2000万Token；GLM-4-Flash和GLM-Z1-Flash完全永久免费",
+      "register_url": "https://open.bigmodel.cn",
+      "note": "GLM-4-Flash永久免费且无Token限制，仅限30并发（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
+      "review": "confirmed"
+    },
+    {
+      "provider": "qianfan",
+      "type": "trial",
+      "quota": "需申请预约",
+      "register_url": "https://console.bce.baidu.com/qianfan",
+      "note": "数理逻辑准确率92%+（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
+      "review": "confirmed"
+    },
+    {
+      "provider": "hunyuan",
+      "type": "trial",
+      "quota": "新用户测试额度",
+      "register_url": "https://cloud.tencent.com/product/hunyuan",
+      "note": "数学方向排名靠前（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
+      "review": "confirmed"
+    },
+    {
+      "provider": "xunfei",
+      "type": "trial",
+      "quota": "新用户测试额度",
+      "register_url": "https://xinghuo.xfyun.cn",
+      "note": "AI绘图、联网搜索、长文档一体化（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
+      "review": "confirmed"
+    },
+    {
+      "provider": "intern-ai",
+      "type": "limited",
+      "quota": "10 RPM，密钥有效期6个月",
+      "register_url": "https://intern-ai.org.cn",
+      "note": "研究/测试用（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
+      "review": "confirmed"
+    },
+    {
+      "provider": "scaleway generative",
+      "type": "trial",
+      "quota": "100 RPM，200K tokens/min",
+      "register_url": "https://console.scaleway.com/generative-apis",
+      "note": "免费测试中（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
+      "review": "confirmed"
+    },
+    {
+      "provider": "together free",
+      "type": "permanent",
+      "quota": "无明确限制",
+      "register_url": "https://together.ai",
+      "note": "支持Meta-Llama-3.1-8B等（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
+      "review": "confirmed"
+    },
+    {
+      "provider": "fireworks ai",
+      "type": "trial",
+      "quota": "免费$1积分",
+      "register_url": "https://fireworks.ai",
+      "note": "高并发支持（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
+      "review": "confirmed"
+    },
+    {
+      "provider": "doubao",
+      "type": "daily",
+      "quota": "每日200万Token，自动刷新",
+      "register_url": "https://console.volcengine.com/ark",
+      "note": "需在控制台手动开通模型（文章佐证：2026年7月大模型API免费额度盘点（白嫖几千万Token））",
+      "review": "confirmed"
+    },
+    {
+      "provider": "moonshot",
+      "type": "permanent",
+      "quota": "新用户赠送15元代金券，永久有效",
+      "register_url": "https://platform.moonshot.cn",
+      "note": "256K超长上下文（文章佐证：免费大语言模型API平台汇总指南（2026年最新））",
+      "review": "confirmed"
+    },
+    {
+      "provider": "qiniu",
+      "type": "trial",
+      "quota": "注册赠免费300万，企业1200万Tokens",
+      "register_url": "https://portal.qiniu.com",
+      "note": "研究/测试（文章佐证：2026最全免费大模型汇总（国内外直连不限额度））",
+      "review": "confirmed"
+    },
+    {
+      "provider": "vercel ai gateway",
+      "type": "permanent",
+      "quota": "$5/月（Vercel 免费套餐附带）",
+      "register_url": "https://vercel.com",
+      "note": "统一网关，自动路由到最优供应商（文章佐证：免费 LLM API 完全指南：11 个平台详细教程）",
+      "review": "confirmed"
+    },
+    {
+      "provider": "chatanywhere",
+      "type": "daily",
+      "quota": "每天每IP 200次",
+      "register_url": "https://www.chatanywhere.tech",
+      "note": "免费中转站（文章佐证）",
+      "review": "confirmed",
+      "risk": "reseller"
+    },
+    {
+      "provider": "api520",
+      "type": "trial",
+      "quota": "赠送¥100",
+      "note": "免费中转站（文章佐证）",
+      "review": "confirmed",
+      "risk": "reseller"
+    },
+    {
+      "provider": "gemai",
+      "type": "trial",
+      "quota": "赠送¥100",
+      "note": "免费中转站（文章佐证）",
+      "review": "confirmed",
+      "risk": "reseller"
+    },
+    {
+      "provider": "modelscope魔搭",
+      "type": "daily",
+      "quota": "每天2000次免费调用，DeepSeek-R1限200次",
+      "note": "支持多模态（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
+      "review": "confirmed"
+    },
+    {
+      "provider": "ai21 labs",
+      "type": "trial",
+      "quota": "$10积分（无需信用卡）",
+      "note": "支持Jamba系列（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
+      "review": "confirmed"
+    },
+    {
+      "provider": "算力云",
+      "type": "limited",
+      "quota": "以平台实时公示为准",
+      "note": "P2P共享算力（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
+      "review": "confirmed"
+    },
+    {
+      "provider": "deepseek",
+      "type": "trial",
+      "quota": "新用户300万Token（30天）",
+      "register_url": "https://platform.deepseek.com",
+      "note": "定价极低，写代码能力公认最强（文章佐证：2026年7月大模型API免费额度盘点（白嫖几千万Token））",
+      "review": "confirmed"
+    }
+  ],
+  "remind": []
+}

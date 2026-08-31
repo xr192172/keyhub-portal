@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>免费 API 情报门户</title>
+<style>
+:root{--bg:#EEF2F9;--card:#fff;--ink:#14213D;--muted:#5B6B85;--brand:#2B6BF3;--brand-2:#3D8BFF;--brand-soft:#E8F0FF;--brand-ink:#1B4FD0;--line:#E3EAF4;--radius:14px;--shadow:0 2px 12px rgba(20,33,61,.06)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:14px/1.6 "PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+.wrap{max-width:880px;margin:0 auto;padding:28px 20px}
+.hd{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.hd .dot{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--brand),var(--brand-2));color:#fff;display:grid;place-items:center;font-weight:800;font-size:18px}
+h1{font-size:22px;font-weight:700}
+.sub{color:var(--muted);font-size:13px;margin-bottom:22px}
+.panel{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 20px;margin-bottom:16px}
+.panel h2{font-size:16px;font-weight:700;margin-bottom:12px}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);font-size:13px}
+th{color:var(--muted);font-weight:600;font-size:12px}
+tr:last-child td{border-bottom:0}
+code{font-family:ui-monospace,Menlo,monospace;background:var(--brand-soft);padding:2px 6px;border-radius:6px;color:var(--brand-ink)}
+a{color:var(--brand-ink)}
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600}
+.badge.warn{background:#FEF3E2;color:#EFAA17}
+.badge.ok{background:#E6F9F0;color:#1DC981}
+.badge.bad{background:#FDE8E8;color:#E8463A}
+.empty{color:var(--muted);padding:12px 0}
+.ads{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.ad{border:1px dashed var(--line);border-radius:var(--radius);padding:16px;background:var(--bg);color:var(--muted);font-size:13px}
+.ad b{color:var(--brand-ink);display:block;margin-bottom:4px}
+.foot{color:var(--muted);font-size:12px;text-align:center;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hd"><span class="dot">K</span><div><h1>免费 API 情报门户</h1></div></div>
+  <div class="sub">最新免费接口与额度 · 由情报中心每日更新</div>
+  <div class="panel"><h2>免费 API 清单</h2><div id="list" class="empty">加载中…</div></div>
+  <div class="panel"><h2>今日提醒</h2><div id="remind" class="empty">无到期/重置提醒</div></div>
+  <div class="ads">
+    <div class="ad"><b>免费 AI API 情报</b>每天更新 · 实时获取免费接口</div>
+    <div class="ad"><b>模型免费额度</b>新平台注册即送 · 一键查看</div>
+  </div>
+  <div class="foot" id="foot"></div>
+</div>
+<script>
+async function render(){
+  const r = await fetch('data.json');
+  const d = await r.json();
+  document.getElementById('foot').textContent = '更新于 ' + new Date(d.updatedAt).toLocaleString();
+  const remind = document.getElementById('remind');
+  if (d.remind && d.remind.length) {
+    remind.innerHTML = d.remind.map(function(x){
+      var badge = x.level==='today' ? '<span class="badge bad">今天到期</span>' : x.level==='reset' ? '<span class="badge ok">今天重置</span>' : '<span class="badge warn">即将到期</span>';
+      return '<div style="margin-bottom:6px">' + badge + ' ' + x.provider + '：' + x.text + '</div>';
+    }).join('');
+  } else { remind.textContent = '无到期/重置提醒'; }
+  const list = document.getElementById('list');
+  if (!d.free || !d.free.length) { list.textContent = '暂无情报'; return; }
+  const AUTH = { email:'邮箱', cn_phone:'国内手机', oversea_phone:'海外手机', credit_card:'需信用卡', realname:'需实名' };
+  list.innerHTML = '<table><tr><th>平台</th><th>核验</th><th>额度</th><th>门槛</th><th>到期</th><th>注册</th></tr>' + d.free.map(f =>
+    '<tr><td><code>' + f.provider + '</code>' + (f.risk==='reseller' ? ' <span class="badge bad">中转站</span>' : '') + '</td><td>' + (f.review==='confirmed' ? '<span class="badge ok">已核验</span>' : f.review==='refuted' ? '<span class="badge bad">非免费</span>' : '<span class="badge warn">待核验</span>') + '</td><td>' + (f.quota||'-') + '</td><td>' + ((f.register_auth||[]).map(function(a){return AUTH[a]||a;}).join(' ')||'-') + '</td><td>' + (f.expires_at||'-') + '</td><td>' + (f.register_url ? '<a href="' + f.register_url.replace(/"/g,'&quot;') + '" target="_blank" rel="noopener noreferrer">注册</a>' : '<span style="color:var(--muted)">待查</span>') + '</td></tr>'
+  ).join('') + '</table>';
+}
+render();
+setInterval(render, 30000); // 每 30s 自动刷新：后台刷新完成后自动显示最新
+</script>
+</body>
+</html>
