@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T15:38:01.832Z",
+  "updatedAt": "2026-08-31T16:04:35.042Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -19,7 +19,11 @@
       "register_url": "https://modelscope.cn/my/myaccesstoken",
       "note": "免费模型 59 个 · 上下文 1M · 模态 audio, image, reasoning, text, video, vision · 每天2000次免费调用（DeepSeek-R1 限200次）",
       "needs_proxy": false,
-      "review": "unknown"
+      "review": "confirmed",
+      "register_auth": [
+        "email",
+        "cn_phone"
+      ]
     },
     {
       "provider": "github_models",
@@ -46,7 +50,11 @@
       "register_url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/",
       "note": "免费模型 14 个 · 上下文 262K · 模态 audio, code, image, reasoning, text, video",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email",
+        "credit_card"
+      ]
     },
     {
       "provider": "ollama_cloud",
@@ -114,7 +122,11 @@
       "register_url": "https://bailian.console.alibabacloud.com/?apiKey=1",
       "note": "免费模型 5 个 · 上下文 1M · 模态 code, image, text",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email",
+        "realname"
+      ]
     },
     {
       "provider": "z_ai",
@@ -122,7 +134,10 @@
       "register_url": "https://open.bigmodel.cn/usercenter/apikeys",
       "note": "免费模型 4 个 · 上下文 200K · 模态 image, reasoning, text, video",
       "needs_proxy": false,
-      "review": "unknown"
+      "review": "confirmed",
+      "register_auth": [
+        "cn_phone"
+      ]
     },
     {
       "provider": "sambanova",
@@ -130,7 +145,10 @@
       "register_url": "https://cloud.sambanova.ai/apis",
       "note": "免费模型 4 个 · 上下文 128K · 模态 image, reasoning, text",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
     },
     {
       "provider": "siliconflow",
@@ -151,7 +169,10 @@
       "register_url": "https://studio.ai21.com/account/api-key",
       "note": "免费模型 2 个 · 上下文 256K · 注册送 $10 积分（无需信用卡）",
       "needs_proxy": false,
-      "review": "unknown"
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
     },
     {
       "provider": "nebius",
@@ -159,7 +180,10 @@
       "register_url": "https://studio.nebius.com/settings/api-keys",
       "note": "免费模型 1 个 · 上下文 128K",
       "needs_proxy": false,
-      "review": "unknown"
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
     },
     {
       "provider": "openrouter",
@@ -183,7 +207,10 @@
       "register_url": "https://dash.cloudflare.com/profile/api-tokens",
       "note": "免费模型 40 个 · 上下文 10M · 模态 code, image, reasoning, text, video",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
     },
     {
       "provider": "groq",
@@ -191,7 +218,10 @@
       "register_url": "https://console.groq.com/keys",
       "note": "免费模型 12 个 · 上下文 262K · 模态 image, reasoning, text",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
     },
     {
       "provider": "mistral_ai",
@@ -199,7 +229,10 @@
       "register_url": "https://console.mistral.ai/api-keys",
       "note": "免费模型 12 个 · 上下文 256K · 模态 code, image, text",
       "needs_proxy": true,
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
     },
     {
       "provider": "cerebras",
@@ -207,7 +240,10 @@
       "register_url": "https://cloud.cerebras.ai/",
       "note": "免费模型 6 个 · 上下文 131K · 模态 reasoning, text",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
     },
     {
       "provider": "xai",
@@ -215,7 +251,10 @@
       "register_url": "https://console.x.ai",
       "note": "新用户或有一次性能额度（促销性质，非永久免费），以官方为准",
       "needs_proxy": true,
-      "review": "unknown"
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
     },
     {
       "provider": "glhf_chat",
@@ -223,21 +262,28 @@
       "register_url": "https://glhf.chat/",
       "note": "免费模型 2 个 · 上下文 131K",
       "needs_proxy": true,
-      "review": "unknown"
+      "review": "confirmed"
     },
     {
       "provider": "google_gemini",
       "type": "permanent",
       "register_url": "https://aistudio.google.com/app/apikey",
       "note": "免费模型 10 个",
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email",
+        "oversea_phone"
+      ]
     },
     {
       "provider": "hugging_face",
       "type": "permanent",
       "register_url": "https://huggingface.co/settings/tokens",
       "note": "免费模型 6 个",
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
     },
     {
       "provider": "zhipu",
@@ -245,7 +291,10 @@
       "quota": "新用户注册送2000万Token；GLM-4-Flash和GLM-Z1-Flash完全永久免费",
       "register_url": "https://open.bigmodel.cn",
       "note": "GLM-4-Flash永久免费且无Token限制，仅限30并发（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "cn_phone"
+      ]
     },
     {
       "provider": "qianfan",
@@ -261,7 +310,11 @@
       "quota": "新用户测试额度",
       "register_url": "https://cloud.tencent.com/product/hunyuan",
       "note": "数学方向排名靠前（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email",
+        "realname"
+      ]
     },
     {
       "provider": "xunfei",
@@ -269,7 +322,11 @@
       "quota": "新用户测试额度",
       "register_url": "https://xinghuo.xfyun.cn",
       "note": "AI绘图、联网搜索、长文档一体化（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "cn_phone",
+        "realname"
+      ]
     },
     {
       "provider": "intern-ai",
@@ -293,7 +350,10 @@
       "quota": "无明确限制",
       "register_url": "https://together.ai",
       "note": "支持Meta-Llama-3.1-8B等（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
     },
     {
       "provider": "fireworks ai",
@@ -301,7 +361,10 @@
       "quota": "免费$1积分",
       "register_url": "https://fireworks.ai",
       "note": "高并发支持（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
     },
     {
       "provider": "doubao",
@@ -309,7 +372,11 @@
       "quota": "每日200万Token，自动刷新",
       "register_url": "https://console.volcengine.com/ark",
       "note": "需在控制台手动开通模型（文章佐证：2026年7月大模型API免费额度盘点（白嫖几千万Token））",
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email",
+        "cn_phone"
+      ]
     },
     {
       "provider": "moonshot",
@@ -317,7 +384,11 @@
       "quota": "新用户赠送15元代金券，永久有效",
       "register_url": "https://platform.moonshot.cn",
       "note": "256K超长上下文（文章佐证：免费大语言模型API平台汇总指南（2026年最新））",
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email",
+        "cn_phone"
+      ]
     },
     {
       "provider": "qiniu",
@@ -325,7 +396,11 @@
       "quota": "注册赠免费300万，企业1200万Tokens",
       "register_url": "https://portal.qiniu.com",
       "note": "研究/测试（文章佐证：2026最全免费大模型汇总（国内外直连不限额度））",
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email",
+        "realname"
+      ]
     },
     {
       "provider": "vercel ai gateway",
@@ -333,7 +408,10 @@
       "quota": "$5/月（Vercel 免费套餐附带）",
       "register_url": "https://vercel.com",
       "note": "统一网关，自动路由到最优供应商（文章佐证：免费 LLM API 完全指南：11 个平台详细教程）",
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
     },
     {
       "provider": "chatanywhere",
@@ -372,7 +450,14 @@
       "type": "trial",
       "quota": "新用户300万Token（30天）",
       "register_url": "https://platform.deepseek.com",
-      "note": "定价极低，写代码能力强（文章佐证：2026年7月大模型API免费额度盘点（白嫖几千万Token））",
+      "note": "定价极低，写代码能力公认最强（文章佐证：2026年7月大模型API免费额度盘点（白嫖几千万Token））",
+      "review": "confirmed"
+    },
+    {
+      "provider": "opencode zen",
+      "type": "permanent",
+      "quota": "匿名免费模型池，包含多个免费模型（如 Muse Spark Contributor Free 等）",
+      "note": "通过匿名方式提供免费模型，但可能用于训练，不适合机密数据（社区佐证：社区动态@github）",
       "review": "confirmed"
     }
   ],
