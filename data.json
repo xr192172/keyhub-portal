@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T13:19:06.354Z",
+  "updatedAt": "2026-08-31T15:32:21.611Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -384,7 +384,7 @@
       "type": "trial",
       "quota": "新用户300万Token（30天）",
       "register_url": "https://platform.deepseek.com",
-      "note": "定价极低，写代码能力公认最强（文章佐证：2026年7月大模型API免费额度盘点（白嫖几千万Token））",
+      "note": "定价极低，写代码能力强（文章佐证：2026年7月大模型API免费额度盘点（白嫖几千万Token））",
       "review": "confirmed"
     }
   ],
