@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T15:32:21.611Z",
+  "updatedAt": "2026-08-31T15:38:01.832Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -15,8 +15,9 @@
     {
       "provider": "modelscope",
       "type": "permanent",
+      "quota": "每天2000次免费调用，DeepSeek-R1限200次",
       "register_url": "https://modelscope.cn/my/myaccesstoken",
-      "note": "免费模型 59 个 · 上下文 1M · 模态 audio, image, reasoning, text, video, vision",
+      "note": "免费模型 59 个 · 上下文 1M · 模态 audio, image, reasoning, text, video, vision · 每天2000次免费调用（DeepSeek-R1 限200次）",
       "needs_proxy": false,
       "review": "unknown"
     },
@@ -146,8 +147,9 @@
     {
       "provider": "ai21_labs",
       "type": "permanent",
+      "quota": "$10积分（无需信用卡）",
       "register_url": "https://studio.ai21.com/account/api-key",
-      "note": "免费模型 2 个 · 上下文 256K",
+      "note": "免费模型 2 个 · 上下文 256K · 注册送 $10 积分（无需信用卡）",
       "needs_proxy": false,
       "review": "unknown"
     },
@@ -357,20 +359,6 @@
       "note": "免费中转站（文章佐证）",
       "review": "confirmed",
       "risk": "reseller"
-    },
-    {
-      "provider": "modelscope魔搭",
-      "type": "daily",
-      "quota": "每天2000次免费调用，DeepSeek-R1限200次",
-      "note": "支持多模态（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed"
-    },
-    {
-      "provider": "ai21 labs",
-      "type": "trial",
-      "quota": "$10积分（无需信用卡）",
-      "note": "支持Jamba系列（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed"
     },
     {
       "provider": "算力云",
