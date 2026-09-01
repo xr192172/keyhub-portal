@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T16:04:35.042Z",
+  "updatedAt": "2026-09-01T00:30:01.312Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -52,8 +52,7 @@
       "needs_proxy": false,
       "review": "confirmed",
       "register_auth": [
-        "email",
-        "credit_card"
+        "email"
       ]
     },
     {
@@ -251,7 +250,7 @@
       "register_url": "https://console.x.ai",
       "note": "新用户或有一次性能额度（促销性质，非永久免费），以官方为准",
       "needs_proxy": true,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -262,7 +261,7 @@
       "register_url": "https://glhf.chat/",
       "note": "免费模型 2 个 · 上下文 131K",
       "needs_proxy": true,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "google_gemini",
@@ -293,6 +292,7 @@
       "note": "GLM-4-Flash永久免费且无Token限制，仅限30并发（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
       "review": "confirmed",
       "register_auth": [
+        "email",
         "cn_phone"
       ]
     },
@@ -324,8 +324,7 @@
       "note": "AI绘图、联网搜索、长文档一体化（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
       "review": "confirmed",
       "register_auth": [
-        "cn_phone",
-        "realname"
+        "cn_phone"
       ]
     },
     {
@@ -374,7 +373,6 @@
       "note": "需在控制台手动开通模型（文章佐证：2026年7月大模型API免费额度盘点（白嫖几千万Token））",
       "review": "confirmed",
       "register_auth": [
-        "email",
         "cn_phone"
       ]
     },
@@ -446,18 +444,1179 @@
       "review": "confirmed"
     },
     {
+      "provider": "discord",
+      "type": "trial",
+      "register_url": "https://discord.com/invite/hgjA78638n/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "ipstack",
+      "type": "trial",
+      "register_url": "https://ipstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "run",
+      "type": "trial",
+      "register_url": "https://run.pstmn.io/button.svg",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "marketstack",
+      "type": "trial",
+      "register_url": "https://marketstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "weatherstack",
+      "type": "trial",
+      "register_url": "https://weatherstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "numverify",
+      "type": "trial",
+      "register_url": "https://numverify.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "fixer",
+      "type": "trial",
+      "register_url": "https://fixer.io/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "aviationstack",
+      "type": "trial",
+      "register_url": "https://aviationstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "zenserp",
+      "type": "trial",
+      "register_url": "https://zenserp.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "filestack",
+      "type": "trial",
+      "register_url": "https://www.filestack.com/signup-start/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ],
+      "expires_at": "2026-09-22"
+    },
+    {
+      "provider": "screenshotlayer",
+      "type": "trial",
+      "register_url": "https://screenshotlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "exchangerate",
+      "type": "trial",
+      "register_url": "https://exchangerate.host/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "mailboxlayer",
+      "type": "trial",
+      "register_url": "https://mailboxlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "github",
+      "type": "trial",
+      "register_url": "https://github.com/beihaili/Get-Started-with-Web3/blob/main/docs/api.md",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "adoptapet",
+      "type": "trial",
+      "register_url": "https://www.adoptapet.com/public/apis/pet_list.html",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "theaxolotlapi",
+      "type": "trial",
+      "register_url": "https://theaxolotlapi.netlify.app/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "alexwohlbruck",
+      "type": "trial",
+      "register_url": "https://alexwohlbruck.github.io/cat-facts/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "catfact",
+      "type": "trial",
+      "register_url": "https://catfact.ninja/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "cataas",
+      "type": "trial",
+      "register_url": "https://cataas.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "docs",
+      "type": "trial",
+      "register_url": "https://docs.village.ai",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "dukengn",
+      "type": "trial",
+      "register_url": "https://dukengn.github.io/Dog-facts-API/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "kinduff",
+      "type": "trial",
+      "register_url": "https://kinduff.github.io/dog-api/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "dog",
+      "type": "trial",
+      "register_url": "https://dog.ceo/dog-api/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "documenter",
+      "type": "trial",
+      "register_url": "https://documenter.getpostman.com/view/664302/S1ENwy59",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "fishwatch",
+      "type": "trial",
+      "register_url": "https://www.fishwatch.gov/developers",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "http",
+      "type": "trial",
+      "register_url": "https://http.dog/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "apiv3",
+      "type": "trial",
+      "register_url": "http://apiv3.iucnredlist.org/api/v3/docs",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "petfinder",
+      "type": "trial",
+      "register_url": "https://www.petfinder.com/developers/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "placebear",
+      "type": "trial",
+      "register_url": "https://placebear.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "place",
+      "type": "trial",
+      "register_url": "https://place.dog",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "random",
+      "type": "trial",
+      "register_url": "https://random.dog/woof.json",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "random-d",
+      "type": "trial",
+      "register_url": "https://random-d.uk/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "randomfox",
+      "type": "trial",
+      "register_url": "https://randomfox.ca/floof/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "userguide",
+      "type": "trial",
+      "register_url": "https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "thedogapi",
+      "type": "trial",
+      "register_url": "https://thedogapi.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "xeno-canto",
+      "type": "trial",
+      "register_url": "https://xeno-canto.org/explore/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "aniapi",
+      "type": "trial",
+      "register_url": "https://aniapi.com/docs/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "wiki",
+      "type": "trial",
+      "register_url": "https://wiki.anidb.net/HTTP_API_Definition",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "chandan-02",
+      "type": "trial",
+      "register_url": "https://chandan-02.github.io/anime-facts-rest-api/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "animenewsnetwork",
+      "type": "trial",
+      "register_url": "https://www.animenewsnetwork.com/encyclopedia/api.php",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "catboys",
+      "type": "trial",
+      "register_url": "https://catboys.com/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "danbooru",
+      "type": "trial",
+      "register_url": "https://danbooru.donmai.us/wiki_pages/help:api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "jikan",
+      "type": "trial",
+      "register_url": "https://jikan.moe",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "kitsu",
+      "type": "trial",
+      "register_url": "https://kitsu.docs.apiary.io/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "api",
+      "type": "trial",
+      "register_url": "https://api.orb-intelligence.com/docs/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "rapidapi",
+      "type": "trial",
+      "register_url": "https://rapidapi.com/Amiichu/api/exerra-phishing-check/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "myanimelist",
+      "type": "trial",
+      "register_url": "https://myanimelist.net/clubs.php?cid=13727",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "shikimori",
+      "type": "trial",
+      "register_url": "https://shikimori.one/api/doc",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "ghibliapi",
+      "type": "trial",
+      "register_url": "https://ghibliapi.vercel.app",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "confirmed"
+    },
+    {
+      "provider": "soruly",
+      "type": "trial",
+      "register_url": "https://soruly.github.io/trace.moe-api/#/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "waifu",
+      "type": "trial",
+      "register_url": "https://waifu.pics/docs",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "otx",
+      "type": "trial",
+      "register_url": "https://otx.alienvault.com/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "capev2",
+      "type": "trial",
+      "register_url": "https://capev2.readthedocs.io/en/latest/usage/api.html",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "ipwhois",
+      "type": "trial",
+      "register_url": "https://ipwhois.net/blacklist/docs",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "maldatabase",
+      "type": "trial",
+      "register_url": "https://maldatabase.com/api-doc.html",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "malshare",
+      "type": "trial",
+      "register_url": "https://malshare.com/doc.php",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "bazaar",
+      "type": "trial",
+      "register_url": "https://bazaar.abuse.ch/api/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "metacert",
+      "type": "trial",
+      "register_url": "https://metacert.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "urlhaus-api",
+      "type": "trial",
+      "register_url": "https://urlhaus-api.abuse.ch/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "urlscan",
+      "type": "trial",
+      "register_url": "https://urlscan.io/about-api/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "support",
+      "type": "trial",
+      "register_url": "https://support.mywot.com/hc/en-us/sections/360004477734-API-",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "colormind",
+      "type": "trial",
+      "register_url": "http://colormind.io/api-access/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "colourlovers",
+      "type": "trial",
+      "register_url": "http://www.colourlovers.com/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "collection",
+      "type": "trial",
+      "register_url": "https://collection.cooperhewitt.org/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "developer",
+      "type": "trial",
+      "register_url": "https://developer.squareup.com/reference/square",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "dummyimage",
+      "type": "trial",
+      "register_url": "https://dummyimage.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "pro",
+      "type": "trial",
+      "register_url": "https://pro.europeana.eu/resources/apis/search",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "icon",
+      "type": "trial",
+      "register_url": "https://icon.horse",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "iconify",
+      "type": "trial",
+      "register_url": "https://iconify.design/docs/api/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "img",
+      "type": "trial",
+      "register_url": "https://img.icons8.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "lordicon",
+      "type": "trial",
+      "register_url": "https://lordicon.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "metmuseum",
+      "type": "trial",
+      "register_url": "https://metmuseum.github.io/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "php-noise",
+      "type": "trial",
+      "register_url": "https://php-noise.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "pixelencounter",
+      "type": "trial",
+      "register_url": "https://pixelencounter.com/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "data",
+      "type": "trial",
+      "register_url": "https://data.rijksmuseum.nl/object-metadata/api/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "thisispaper",
+      "type": "trial",
+      "register_url": "https://www.thisispaper.com/intelligence/api-docs",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "upres",
+      "type": "trial",
+      "register_url": "https://upres.ai/docs/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "text-till-klad-design",
+      "type": "trial",
+      "register_url": "https://text-till-klad-design.gracestack.se/api/v1/openapi.json",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "wordcloudapi",
+      "type": "trial",
+      "register_url": "https://wordcloudapi.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "auth0",
+      "type": "trial",
+      "register_url": "https://auth0.com",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ],
+      "expires_at": "2026-10-01"
+    },
+    {
+      "provider": "otp",
+      "type": "trial",
+      "register_url": "https://otp.dev/en/docs/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "m3o",
+      "type": "trial",
+      "register_url": "https://m3o.com/user",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "mojoauth",
+      "type": "trial",
+      "register_url": "https://mojoauth.com",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "stytch",
+      "type": "trial",
+      "register_url": "https://stytch.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "warrant",
+      "type": "trial",
+      "register_url": "https://warrant.dev/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "graphql",
+      "type": "trial",
+      "register_url": "https://graphql.bitquery.io/ide",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "dev",
+      "type": "trial",
+      "register_url": "https://dev.blockscout.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "chain",
+      "type": "trial",
+      "register_url": "https://chain.link/developer-resources",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "tierion",
+      "type": "trial",
+      "register_url": "https://tierion.com/chainpoint/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "cleartracedata",
+      "type": "trial",
+      "register_url": "https://cleartracedata.com/docs",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "covalenthq",
+      "type": "trial",
+      "register_url": "https://www.covalenthq.com/docs/api/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "etherscan",
+      "type": "trial",
+      "register_url": "https://etherscan.io/apis",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "nownodes",
+      "type": "trial",
+      "register_url": "https://nownodes.io/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ],
+      "expires_at": "2026-10-01"
+    },
+    {
+      "provider": "developers",
+      "type": "trial",
+      "register_url": "https://developers.trello.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "intel",
+      "type": "trial",
+      "register_url": "https://intel.twzrd.xyz",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "thegraph",
+      "type": "trial",
+      "register_url": "https://thegraph.com",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "abibliadigital",
+      "type": "trial",
+      "register_url": "https://www.abibliadigital.com.br/en",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "sunnah",
+      "type": "trial",
+      "register_url": "https://sunnah.amanahagent.cloud/developers",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "bhagavadgita",
+      "type": "trial",
+      "register_url": "https://bhagavadgita.io/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "gita-api",
+      "type": "trial",
+      "register_url": "https://gita-api.vercel.app",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "bible-api",
+      "type": "trial",
+      "register_url": "https://bible-api.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "gutendex",
+      "type": "trial",
+      "register_url": "https://gutendex.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "kdp-intelligence-api",
+      "type": "trial",
+      "register_url": "https://kdp-intelligence-api.vercel.app/docs",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "openlibrary",
+      "type": "trial",
+      "register_url": "https://openlibrary.org/developers/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "penguinrandomhouse",
+      "type": "trial",
+      "register_url": "http://www.penguinrandomhouse.biz/webservices/rest/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "quran",
+      "type": "trial",
+      "register_url": "https://quran.api-docs.io/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "alquran",
+      "type": "trial",
+      "register_url": "https://alquran.cloud/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "runyankole-bible-api",
+      "type": "trial",
+      "register_url": "https://runyankole-bible-api.vercel.app",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "urantia",
+      "type": "trial",
+      "register_url": "https://urantia.dev",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "wolnelektury",
+      "type": "trial",
+      "register_url": "https://wolnelektury.pl/api/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "superset",
+      "type": "trial",
+      "register_url": "https://superset.apache.org/docs/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "charityapi",
+      "type": "trial",
+      "register_url": "http://charityapi.orghunter.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "clearbit",
+      "type": "trial",
+      "register_url": "https://clearbit.com/docs#logo-api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "domainsdb",
+      "type": "trial",
+      "register_url": "https://domainsdb.info/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "fundingsignals",
+      "type": "trial",
+      "register_url": "https://fundingsignals.net/docs",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "instatus",
+      "type": "trial",
+      "register_url": "https://instatus.com/help/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "invovate",
+      "type": "trial",
+      "register_url": "https://invovate.com/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "meetkatalis",
+      "type": "trial",
+      "register_url": "https://meetkatalis.com/apis",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "legal",
+      "type": "trial",
+      "register_url": "https://legal.ge/api/openapi.json",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "mailchimp",
+      "type": "trial",
+      "register_url": "https://mailchimp.com/developer/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "mailjet",
+      "type": "trial",
+      "register_url": "https://www.mailjet.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "markerapi",
+      "type": "trial",
+      "register_url": "https://markerapi.com",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "meirra",
+      "type": "trial",
+      "register_url": "https://meirra.com/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "pickanagency",
+      "type": "trial",
+      "register_url": "https://www.pickanagency.com/developers",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "redash",
+      "type": "trial",
+      "register_url": "https://redash.io/help/user-guide/integrations-and-api/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "signaliz",
+      "type": "trial",
+      "register_url": "https://signaliz.docs.buildwithfern.com/signaliz-api-public-docs/introduction",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "smartsheet",
+      "type": "trial",
+      "register_url": "https://smartsheet.redoc.ly/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "digite",
+      "type": "trial",
+      "register_url": "https://www.digite.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services/#restapi",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "tradedatahub",
+      "type": "trial",
+      "register_url": "https://www.tradedatahub.net",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "refuted"
+    },
+    {
+      "provider": "tomba",
+      "type": "trial",
+      "register_url": "https://tomba.io/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "caldays",
+      "type": "trial",
+      "register_url": "https://caldays.com/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed"
+    },
+    {
+      "provider": "calendarific",
+      "type": "trial",
+      "register_url": "https://calendarific.com/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
+    },
+    {
+      "provider": "calapi",
+      "type": "trial",
+      "register_url": "http://calapi.inadiutorium.cz/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "svatky",
+      "type": "trial",
+      "register_url": "https://svatky.adresa.info",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
       "provider": "deepseek",
       "type": "trial",
       "quota": "新用户300万Token（30天）",
       "register_url": "https://platform.deepseek.com",
-      "note": "定价极低，写代码能力公认最强（文章佐证：2026年7月大模型API免费额度盘点（白嫖几千万Token））",
-      "review": "confirmed"
-    },
-    {
-      "provider": "opencode zen",
-      "type": "permanent",
-      "quota": "匿名免费模型池，包含多个免费模型（如 Muse Spark Contributor Free 等）",
-      "note": "通过匿名方式提供免费模型，但可能用于训练，不适合机密数据（社区佐证：社区动态@github）",
+      "note": "免费额度不多但定价极低（文章佐证：2026年7月大模型API免费额度盘点（白嫖几千万Token））",
       "review": "confirmed"
     }
   ],
