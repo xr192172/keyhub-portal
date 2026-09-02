@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T00:30:01.312Z",
+  "updatedAt": "2026-09-02T00:30:01.419Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -94,7 +94,7 @@
       "register_url": "https://opencode.ai/auth",
       "note": "免费模型 12 个 · 上下文 1M · 模态 audio, reasoning, vision",
       "needs_proxy": false,
-      "review": "unknown",
+      "review": "confirmed",
       "register_auth": [
         "email"
       ]
@@ -123,7 +123,6 @@
       "needs_proxy": false,
       "review": "confirmed",
       "register_auth": [
-        "email",
         "realname"
       ]
     },
@@ -250,7 +249,7 @@
       "register_url": "https://console.x.ai",
       "note": "新用户或有一次性能额度（促销性质，非永久免费），以官方为准",
       "needs_proxy": true,
-      "review": "unknown",
+      "review": "confirmed",
       "register_auth": [
         "email"
       ]
@@ -261,7 +260,7 @@
       "register_url": "https://glhf.chat/",
       "note": "免费模型 2 个 · 上下文 131K",
       "needs_proxy": true,
-      "review": "unknown"
+      "review": "confirmed"
     },
     {
       "provider": "google_gemini",
@@ -270,8 +269,7 @@
       "note": "免费模型 10 个",
       "review": "confirmed",
       "register_auth": [
-        "email",
-        "oversea_phone"
+        "email"
       ]
     },
     {
@@ -292,7 +290,6 @@
       "note": "GLM-4-Flash永久免费且无Token限制，仅限30并发（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
       "review": "confirmed",
       "register_auth": [
-        "email",
         "cn_phone"
       ]
     },
@@ -373,6 +370,7 @@
       "note": "需在控制台手动开通模型（文章佐证：2026年7月大模型API免费额度盘点（白嫖几千万Token））",
       "review": "confirmed",
       "register_auth": [
+        "email",
         "cn_phone"
       ]
     },
@@ -449,7 +447,10 @@
       "register_url": "https://discord.com/invite/hgjA78638n/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": true,
-      "review": "unknown"
+      "review": "unknown",
+      "register_auth": [
+        "email"
+      ]
     },
     {
       "provider": "ipstack",
@@ -546,7 +547,7 @@
       "register_auth": [
         "email"
       ],
-      "expires_at": "2026-09-22"
+      "expires_at": "2026-09-23"
     },
     {
       "provider": "screenshotlayer",
@@ -584,10 +585,10 @@
     {
       "provider": "github",
       "type": "trial",
-      "register_url": "https://github.com/beihaili/Get-Started-with-Web3/blob/main/docs/api.md",
+      "register_url": "https://github.com/fawazahmed0/quran-api#readme",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "unknown"
+      "review": "confirmed"
     },
     {
       "provider": "adoptapet",
@@ -670,10 +671,7 @@
       "register_url": "https://documenter.getpostman.com/view/664302/S1ENwy59",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "unknown",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "fishwatch",
@@ -745,7 +743,7 @@
       "register_url": "https://randomfox.ca/floof/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "unknown"
+      "review": "confirmed"
     },
     {
       "provider": "userguide",
@@ -860,7 +858,10 @@
       "register_url": "https://myanimelist.net/clubs.php?cid=13727",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "unknown"
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
     },
     {
       "provider": "shikimori",
@@ -916,7 +917,10 @@
       "register_url": "https://ipwhois.net/blacklist/docs",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "confirmed",
+      "register_auth": [
+        "email"
+      ]
     },
     {
       "provider": "maldatabase",
@@ -977,7 +981,7 @@
       "type": "trial",
       "register_url": "https://support.mywot.com/hc/en-us/sections/360004477734-API-",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -1142,8 +1146,7 @@
       "review": "confirmed",
       "register_auth": [
         "email"
-      ],
-      "expires_at": "2026-10-01"
+      ]
     },
     {
       "provider": "otp",
@@ -1254,7 +1257,7 @@
       "register_auth": [
         "email"
       ],
-      "expires_at": "2026-10-01"
+      "expires_at": "2026-10-02"
     },
     {
       "provider": "developers",
@@ -1482,10 +1485,7 @@
       "register_url": "https://mailchimp.com/developer/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "unknown",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "mailjet",
@@ -1616,7 +1616,7 @@
       "type": "trial",
       "quota": "新用户300万Token（30天）",
       "register_url": "https://platform.deepseek.com",
-      "note": "免费额度不多但定价极低（文章佐证：2026年7月大模型API免费额度盘点（白嫖几千万Token））",
+      "note": "定价极低，写代码能力公认最强（文章佐证：2026年7月大模型API免费额度盘点（白嫖几千万Token））",
       "review": "confirmed"
     }
   ],
