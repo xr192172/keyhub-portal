@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T00:30:01.419Z",
+  "updatedAt": "2026-09-03T00:30:01.708Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -7,7 +7,7 @@
       "register_url": "https://build.nvidia.com/settings/api-keys",
       "note": "免费模型 126 个 · 上下文 1M · 模态 audio, embedding, image, reasoning, rerank, text, video, vision",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -19,7 +19,7 @@
       "register_url": "https://modelscope.cn/my/myaccesstoken",
       "note": "免费模型 59 个 · 上下文 1M · 模态 audio, image, reasoning, text, video, vision · 每天2000次免费调用（DeepSeek-R1 限200次）",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email",
         "cn_phone"
@@ -31,7 +31,7 @@
       "register_url": "https://github.com/marketplace/models",
       "note": "免费模型 16 个 · 上下文 1M · 模态 image, pdf, reasoning, text",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -50,7 +50,7 @@
       "register_url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/",
       "note": "免费模型 14 个 · 上下文 262K · 模态 audio, code, image, reasoning, text, video",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -72,7 +72,7 @@
       "register_url": "https://dashboard.cohere.com/api-keys",
       "note": "免费模型 12 个 · 上下文 436K · 模态 image, text",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -83,7 +83,7 @@
       "register_url": "https://kilo.ai",
       "note": "免费模型 12 个 · 上下文 1M · 模态 audio, code, image, reasoning, text, video",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -94,7 +94,7 @@
       "register_url": "https://opencode.ai/auth",
       "note": "免费模型 12 个 · 上下文 1M · 模态 audio, reasoning, vision",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -121,7 +121,7 @@
       "register_url": "https://bailian.console.alibabacloud.com/?apiKey=1",
       "note": "免费模型 5 个 · 上下文 1M · 模态 code, image, text",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "realname"
       ]
@@ -132,7 +132,7 @@
       "register_url": "https://open.bigmodel.cn/usercenter/apikeys",
       "note": "免费模型 4 个 · 上下文 200K · 模态 image, reasoning, text, video",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "cn_phone"
       ]
@@ -143,7 +143,7 @@
       "register_url": "https://cloud.sambanova.ai/apis",
       "note": "免费模型 4 个 · 上下文 128K · 模态 image, reasoning, text",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -154,7 +154,7 @@
       "register_url": "https://cloud.siliconflow.cn/account/ak",
       "note": "免费模型 3 个 · 上下文 131K",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "cn_phone",
         "email"
@@ -167,7 +167,7 @@
       "register_url": "https://studio.ai21.com/account/api-key",
       "note": "免费模型 2 个 · 上下文 256K · 注册送 $10 积分（无需信用卡）",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -178,7 +178,7 @@
       "register_url": "https://studio.nebius.com/settings/api-keys",
       "note": "免费模型 1 个 · 上下文 128K",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -189,7 +189,7 @@
       "register_url": "https://openrouter.ai/workspaces/default/keys",
       "note": "免费模型 29 个 · 上下文 1M · 额度 Free tier + $10 topup → 1K RPD · 模态 audio, code, embeddings, image, reasoning, rerank, speech, text, video",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "nscale",
@@ -205,7 +205,7 @@
       "register_url": "https://dash.cloudflare.com/profile/api-tokens",
       "note": "免费模型 40 个 · 上下文 10M · 模态 code, image, reasoning, text, video",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -216,7 +216,7 @@
       "register_url": "https://console.groq.com/keys",
       "note": "免费模型 12 个 · 上下文 262K · 模态 image, reasoning, text",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -227,7 +227,7 @@
       "register_url": "https://console.mistral.ai/api-keys",
       "note": "免费模型 12 个 · 上下文 256K · 模态 code, image, text",
       "needs_proxy": true,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -238,7 +238,7 @@
       "register_url": "https://cloud.cerebras.ai/",
       "note": "免费模型 6 个 · 上下文 131K · 模态 reasoning, text",
       "needs_proxy": false,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -249,7 +249,7 @@
       "register_url": "https://console.x.ai",
       "note": "新用户或有一次性能额度（促销性质，非永久免费），以官方为准",
       "needs_proxy": true,
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -260,14 +260,14 @@
       "register_url": "https://glhf.chat/",
       "note": "免费模型 2 个 · 上下文 131K",
       "needs_proxy": true,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "google_gemini",
       "type": "permanent",
       "register_url": "https://aistudio.google.com/app/apikey",
       "note": "免费模型 10 个",
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -277,7 +277,7 @@
       "type": "permanent",
       "register_url": "https://huggingface.co/settings/tokens",
       "note": "免费模型 6 个",
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -288,7 +288,7 @@
       "quota": "新用户注册送2000万Token；GLM-4-Flash和GLM-Z1-Flash完全永久免费",
       "register_url": "https://open.bigmodel.cn",
       "note": "GLM-4-Flash永久免费且无Token限制，仅限30并发（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "cn_phone"
       ]
@@ -299,7 +299,7 @@
       "quota": "需申请预约",
       "register_url": "https://console.bce.baidu.com/qianfan",
       "note": "数理逻辑准确率92%+（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "hunyuan",
@@ -307,7 +307,7 @@
       "quota": "新用户测试额度",
       "register_url": "https://cloud.tencent.com/product/hunyuan",
       "note": "数学方向排名靠前（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email",
         "realname"
@@ -319,7 +319,7 @@
       "quota": "新用户测试额度",
       "register_url": "https://xinghuo.xfyun.cn",
       "note": "AI绘图、联网搜索、长文档一体化（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "cn_phone"
       ]
@@ -330,7 +330,7 @@
       "quota": "10 RPM，密钥有效期6个月",
       "register_url": "https://intern-ai.org.cn",
       "note": "研究/测试用（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "scaleway generative",
@@ -338,7 +338,7 @@
       "quota": "100 RPM，200K tokens/min",
       "register_url": "https://console.scaleway.com/generative-apis",
       "note": "免费测试中（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "together free",
@@ -346,7 +346,7 @@
       "quota": "无明确限制",
       "register_url": "https://together.ai",
       "note": "支持Meta-Llama-3.1-8B等（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -357,7 +357,7 @@
       "quota": "免费$1积分",
       "register_url": "https://fireworks.ai",
       "note": "高并发支持（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -368,7 +368,7 @@
       "quota": "每日200万Token，自动刷新",
       "register_url": "https://console.volcengine.com/ark",
       "note": "需在控制台手动开通模型（文章佐证：2026年7月大模型API免费额度盘点（白嫖几千万Token））",
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email",
         "cn_phone"
@@ -380,7 +380,7 @@
       "quota": "新用户赠送15元代金券，永久有效",
       "register_url": "https://platform.moonshot.cn",
       "note": "256K超长上下文（文章佐证：免费大语言模型API平台汇总指南（2026年最新））",
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email",
         "cn_phone"
@@ -392,7 +392,7 @@
       "quota": "注册赠免费300万，企业1200万Tokens",
       "register_url": "https://portal.qiniu.com",
       "note": "研究/测试（文章佐证：2026最全免费大模型汇总（国内外直连不限额度））",
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email",
         "realname"
@@ -404,7 +404,7 @@
       "quota": "$5/月（Vercel 免费套餐附带）",
       "register_url": "https://vercel.com",
       "note": "统一网关，自动路由到最优供应商（文章佐证：免费 LLM API 完全指南：11 个平台详细教程）",
-      "review": "confirmed",
+      "review": "unknown",
       "register_auth": [
         "email"
       ]
@@ -415,7 +415,7 @@
       "quota": "每天每IP 200次",
       "register_url": "https://www.chatanywhere.tech",
       "note": "免费中转站（文章佐证）",
-      "review": "confirmed",
+      "review": "unknown",
       "risk": "reseller"
     },
     {
@@ -423,7 +423,7 @@
       "type": "trial",
       "quota": "赠送¥100",
       "note": "免费中转站（文章佐证）",
-      "review": "confirmed",
+      "review": "unknown",
       "risk": "reseller"
     },
     {
@@ -431,7 +431,7 @@
       "type": "trial",
       "quota": "赠送¥100",
       "note": "免费中转站（文章佐证）",
-      "review": "confirmed",
+      "review": "unknown",
       "risk": "reseller"
     },
     {
@@ -439,7 +439,7 @@
       "type": "limited",
       "quota": "以平台实时公示为准",
       "note": "P2P共享算力（文章佐证：2026年最全免费大模型API盘点：30+平台白嫖指南）",
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "discord",
@@ -447,10 +447,7 @@
       "register_url": "https://discord.com/invite/hgjA78638n/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": true,
-      "review": "unknown",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "ipstack",
@@ -458,10 +455,7 @@
       "register_url": "https://ipstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "run",
@@ -477,10 +471,7 @@
       "register_url": "https://marketstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "weatherstack",
@@ -488,10 +479,7 @@
       "register_url": "https://weatherstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "numverify",
@@ -499,10 +487,7 @@
       "register_url": "https://numverify.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "fixer",
@@ -510,10 +495,7 @@
       "register_url": "https://fixer.io/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "aviationstack",
@@ -521,10 +503,7 @@
       "register_url": "https://aviationstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "zenserp",
@@ -532,10 +511,7 @@
       "register_url": "https://zenserp.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "filestack",
@@ -543,11 +519,7 @@
       "register_url": "https://www.filestack.com/signup-start/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ],
-      "expires_at": "2026-09-23"
+      "review": "unknown"
     },
     {
       "provider": "screenshotlayer",
@@ -555,10 +527,7 @@
       "register_url": "https://screenshotlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "exchangerate",
@@ -566,10 +535,7 @@
       "register_url": "https://exchangerate.host/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "mailboxlayer",
@@ -577,10 +543,7 @@
       "register_url": "https://mailboxlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "github",
@@ -588,7 +551,7 @@
       "register_url": "https://github.com/fawazahmed0/quran-api#readme",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "adoptapet",
@@ -604,7 +567,7 @@
       "register_url": "https://theaxolotlapi.netlify.app/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "alexwohlbruck",
@@ -612,7 +575,7 @@
       "register_url": "https://alexwohlbruck.github.io/cat-facts/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "catfact",
@@ -620,7 +583,7 @@
       "register_url": "https://catfact.ninja/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "cataas",
@@ -628,7 +591,7 @@
       "register_url": "https://cataas.com/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "docs",
@@ -636,10 +599,7 @@
       "register_url": "https://docs.village.ai",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "dukengn",
@@ -647,7 +607,7 @@
       "register_url": "https://dukengn.github.io/Dog-facts-API/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "kinduff",
@@ -655,7 +615,7 @@
       "register_url": "https://kinduff.github.io/dog-api/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "dog",
@@ -663,7 +623,7 @@
       "register_url": "https://dog.ceo/dog-api/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "documenter",
@@ -735,7 +695,7 @@
       "register_url": "https://random-d.uk/api",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "randomfox",
@@ -743,7 +703,7 @@
       "register_url": "https://randomfox.ca/floof/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "userguide",
@@ -751,10 +711,7 @@
       "register_url": "https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "thedogapi",
@@ -794,7 +751,7 @@
       "register_url": "https://chandan-02.github.io/anime-facts-rest-api/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "animenewsnetwork",
@@ -826,7 +783,7 @@
       "register_url": "https://jikan.moe",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "kitsu",
@@ -858,10 +815,7 @@
       "register_url": "https://myanimelist.net/clubs.php?cid=13727",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "shikimori",
@@ -869,7 +823,7 @@
       "register_url": "https://shikimori.one/api/doc",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "ghibliapi",
@@ -877,7 +831,7 @@
       "register_url": "https://ghibliapi.vercel.app",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": true,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "soruly",
@@ -917,10 +871,7 @@
       "register_url": "https://ipwhois.net/blacklist/docs",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "maldatabase",
@@ -960,10 +911,7 @@
       "register_url": "https://urlhaus-api.abuse.ch/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "urlscan",
@@ -971,10 +919,7 @@
       "register_url": "https://urlscan.io/about-api/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "support",
@@ -990,7 +935,7 @@
       "register_url": "http://colormind.io/api-access/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "colourlovers",
@@ -1022,7 +967,7 @@
       "register_url": "https://dummyimage.com/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "pro",
@@ -1038,7 +983,7 @@
       "register_url": "https://icon.horse",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "iconify",
@@ -1046,7 +991,7 @@
       "register_url": "https://iconify.design/docs/api/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "img",
@@ -1062,10 +1007,7 @@
       "register_url": "https://lordicon.com/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "metmuseum",
@@ -1073,7 +1015,7 @@
       "register_url": "https://metmuseum.github.io/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "php-noise",
@@ -1081,7 +1023,7 @@
       "register_url": "https://php-noise.com/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "pixelencounter",
@@ -1105,10 +1047,7 @@
       "register_url": "https://www.thisispaper.com/intelligence/api-docs",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "upres",
@@ -1116,7 +1055,7 @@
       "register_url": "https://upres.ai/docs/api",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "text-till-klad-design",
@@ -1124,10 +1063,7 @@
       "register_url": "https://text-till-klad-design.gracestack.se/api/v1/openapi.json",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "wordcloudapi",
@@ -1143,10 +1079,7 @@
       "register_url": "https://auth0.com",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "otp",
@@ -1170,10 +1103,7 @@
       "register_url": "https://mojoauth.com",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "stytch",
@@ -1236,7 +1166,7 @@
       "type": "trial",
       "register_url": "https://www.covalenthq.com/docs/api/",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": false,
+      "needs_proxy": true,
       "review": "unknown"
     },
     {
@@ -1253,11 +1183,7 @@
       "register_url": "https://nownodes.io/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ],
-      "expires_at": "2026-10-02"
+      "review": "unknown"
     },
     {
       "provider": "developers",
@@ -1297,10 +1223,7 @@
       "register_url": "https://sunnah.amanahagent.cloud/developers",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "bhagavadgita",
@@ -1324,15 +1247,15 @@
       "register_url": "https://bible-api.com/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "gutendex",
       "type": "trial",
       "register_url": "https://gutendex.com/",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": false,
-      "review": "confirmed"
+      "needs_proxy": true,
+      "review": "unknown"
     },
     {
       "provider": "kdp-intelligence-api",
@@ -1388,7 +1311,7 @@
       "register_url": "https://urantia.dev",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "wolnelektury",
@@ -1396,7 +1319,7 @@
       "register_url": "https://wolnelektury.pl/api/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "superset",
@@ -1436,10 +1359,7 @@
       "register_url": "https://fundingsignals.net/docs",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "instatus",
@@ -1455,10 +1375,7 @@
       "register_url": "https://invovate.com/api",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "meetkatalis",
@@ -1466,10 +1383,7 @@
       "register_url": "https://meetkatalis.com/apis",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "legal",
@@ -1493,10 +1407,7 @@
       "register_url": "https://www.mailjet.com/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "markerapi",
@@ -1504,10 +1415,7 @@
       "register_url": "https://markerapi.com",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "meirra",
@@ -1523,7 +1431,7 @@
       "register_url": "https://www.pickanagency.com/developers",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "redash",
@@ -1563,7 +1471,7 @@
       "register_url": "https://www.tradedatahub.net",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "refuted"
+      "review": "unknown"
     },
     {
       "provider": "tomba",
@@ -1571,10 +1479,7 @@
       "register_url": "https://tomba.io/api",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "caldays",
@@ -1582,7 +1487,7 @@
       "register_url": "https://caldays.com/api",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed"
+      "review": "unknown"
     },
     {
       "provider": "calendarific",
@@ -1590,10 +1495,7 @@
       "register_url": "https://calendarific.com/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
-      "review": "confirmed",
-      "register_auth": [
-        "email"
-      ]
+      "review": "unknown"
     },
     {
       "provider": "calapi",
@@ -1610,14 +1512,6 @@
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
-    },
-    {
-      "provider": "deepseek",
-      "type": "trial",
-      "quota": "新用户300万Token（30天）",
-      "register_url": "https://platform.deepseek.com",
-      "note": "定价极低，写代码能力公认最强（文章佐证：2026年7月大模型API免费额度盘点（白嫖几千万Token））",
-      "review": "confirmed"
     }
   ],
   "remind": []
