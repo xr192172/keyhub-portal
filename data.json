@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T00:30:01.511Z",
+  "updatedAt": "2026-09-09T00:30:01.340Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -548,7 +548,7 @@
     {
       "provider": "github",
       "type": "trial",
-      "register_url": "https://github.com/fawazahmed0/quran-api#readme",
+      "register_url": "https://github.com/GurbaniNow/api",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -926,7 +926,7 @@
       "type": "trial",
       "register_url": "https://support.mywot.com/hc/en-us/sections/360004477734-API-",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": false,
+      "needs_proxy": true,
       "review": "unknown"
     },
     {
@@ -1166,7 +1166,7 @@
       "type": "trial",
       "register_url": "https://www.covalenthq.com/docs/api/",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -1254,7 +1254,7 @@
       "type": "trial",
       "register_url": "https://gutendex.com/",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
