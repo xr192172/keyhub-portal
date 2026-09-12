@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T00:30:01.244Z",
+  "updatedAt": "2026-09-12T00:30:01.411Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -516,7 +516,7 @@
     {
       "provider": "filestack",
       "type": "trial",
-      "register_url": "https://www.filestack.com/signup-start/",
+      "register_url": "https://www.filestack.com/signup-free//?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -548,7 +548,7 @@
     {
       "provider": "github",
       "type": "trial",
-      "register_url": "https://github.com/GurbaniNow/api",
+      "register_url": "https://github.com/harvardartmuseums/api-docs",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -774,7 +774,7 @@
       "type": "trial",
       "register_url": "https://danbooru.donmai.us/wiki_pages/help:api",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": false,
+      "needs_proxy": true,
       "review": "unknown"
     },
     {
@@ -1509,6 +1509,14 @@
       "provider": "svatky",
       "type": "trial",
       "register_url": "https://svatky.adresa.info",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "invoicein",
+      "type": "trial",
+      "register_url": "https://invoicein.peculiar.systems/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
