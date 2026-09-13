@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T00:30:01.411Z",
+  "updatedAt": "2026-09-13T00:30:01.434Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -548,7 +548,7 @@
     {
       "provider": "github",
       "type": "trial",
-      "register_url": "https://github.com/harvardartmuseums/api-docs",
+      "register_url": "https://github.com/CrossRef/rest-api-doc",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -774,7 +774,7 @@
       "type": "trial",
       "register_url": "https://danbooru.donmai.us/wiki_pages/help:api",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -926,7 +926,7 @@
       "type": "trial",
       "register_url": "https://support.mywot.com/hc/en-us/sections/360004477734-API-",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
