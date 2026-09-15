@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T00:30:01.434Z",
+  "updatedAt": "2026-09-15T00:30:01.516Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -548,7 +548,7 @@
     {
       "provider": "github",
       "type": "trial",
-      "register_url": "https://github.com/CrossRef/rest-api-doc",
+      "register_url": "https://github.com/fawazahmed0/quran-api#readme",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -782,7 +782,7 @@
       "type": "trial",
       "register_url": "https://jikan.moe",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": false,
+      "needs_proxy": true,
       "review": "unknown"
     },
     {
@@ -926,7 +926,7 @@
       "type": "trial",
       "register_url": "https://support.mywot.com/hc/en-us/sections/360004477734-API-",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": false,
+      "needs_proxy": true,
       "review": "unknown"
     },
     {
@@ -1517,6 +1517,30 @@
       "provider": "invoicein",
       "type": "trial",
       "register_url": "https://invoicein.peculiar.systems/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": true,
+      "review": "unknown"
+    },
+    {
+      "provider": "iucnredlist",
+      "type": "trial",
+      "register_url": "https://www.iucnredlist.org/en",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "globalentityapi",
+      "type": "trial",
+      "register_url": "https://www.globalentityapi.com/docs",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "kontragentpro",
+      "type": "trial",
+      "register_url": "https://kontragentpro.ru/api/v2/docs",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
