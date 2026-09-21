@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:30:01.516Z",
+  "updatedAt": "2026-09-21T00:30:01.649Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -452,7 +452,7 @@
     {
       "provider": "ipstack",
       "type": "trial",
-      "register_url": "https://ipstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "register_url": "https://ipstack.com/mcp",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -596,7 +596,7 @@
     {
       "provider": "docs",
       "type": "trial",
-      "register_url": "https://docs.village.ai",
+      "register_url": "https://docs.crustdata.com",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -782,7 +782,7 @@
       "type": "trial",
       "register_url": "https://jikan.moe",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -926,7 +926,7 @@
       "type": "trial",
       "register_url": "https://support.mywot.com/hc/en-us/sections/360004477734-API-",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -1188,7 +1188,7 @@
     {
       "provider": "developers",
       "type": "trial",
-      "register_url": "https://developers.trello.com/",
+      "register_url": "https://developers.freelancer.com",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -1518,7 +1518,7 @@
       "type": "trial",
       "register_url": "https://invoicein.peculiar.systems/",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -1541,6 +1541,86 @@
       "provider": "kontragentpro",
       "type": "trial",
       "register_url": "https://kontragentpro.ru/api/v2/docs",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "modelcontextprotocol",
+      "type": "trial",
+      "register_url": "https://modelcontextprotocol.io",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "cursor",
+      "type": "trial",
+      "register_url": "https://cursor.directory/plugins/apilayer-mcp-adapter",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "glama",
+      "type": "trial",
+      "register_url": "https://glama.ai/mcp/servers/@github/github-mcp-server",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "breedhealthscore",
+      "type": "trial",
+      "register_url": "https://breedhealthscore.com/developers/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "malwagon",
+      "type": "trial",
+      "register_url": "https://malwagon.com/docs/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "scanmalware",
+      "type": "trial",
+      "register_url": "https://scanmalware.com",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "myfaceshapechart",
+      "type": "trial",
+      "register_url": "https://myfaceshapechart.com/openapi.json",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "sawolabs",
+      "type": "trial",
+      "register_url": "https://sawolabs.com",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "swiftnodes",
+      "type": "trial",
+      "register_url": "https://swiftnodes.io",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "eurovalidate",
+      "type": "trial",
+      "register_url": "https://eurovalidate.com",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
