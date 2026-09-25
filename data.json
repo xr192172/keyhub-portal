@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T00:30:02.477Z",
+  "updatedAt": "2026-09-25T00:30:01.511Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -516,7 +516,7 @@
     {
       "provider": "filestack",
       "type": "trial",
-      "register_url": "https://www.filestack.com/signup-free//?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "register_url": "https://www.filestack.com/docs/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -548,7 +548,7 @@
     {
       "provider": "github",
       "type": "trial",
-      "register_url": "https://github.com/fawazahmed0/quran-api#readme",
+      "register_url": "https://github.com/Smithsonian/smithsonian-openaccess",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -766,7 +766,7 @@
       "type": "trial",
       "register_url": "https://catboys.com/api",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -844,9 +844,9 @@
     {
       "provider": "waifu",
       "type": "trial",
-      "register_url": "https://waifu.pics/docs",
+      "register_url": "https://waifu.im/docs",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -956,7 +956,7 @@
     {
       "provider": "developer",
       "type": "trial",
-      "register_url": "https://developer.squareup.com/reference/square",
+      "register_url": "https://developer.iconfinder.com",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -998,7 +998,7 @@
       "type": "trial",
       "register_url": "https://img.icons8.com/",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -1422,7 +1422,7 @@
       "type": "trial",
       "register_url": "https://meirra.com/api",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -1621,6 +1621,22 @@
       "provider": "eurovalidate",
       "type": "trial",
       "register_url": "https://eurovalidate.com",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "greenlitbooks",
+      "type": "trial",
+      "register_url": "https://greenlitbooks.com/developers",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "api-thirukkural",
+      "type": "trial",
+      "register_url": "https://api-thirukkural.web.app/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
