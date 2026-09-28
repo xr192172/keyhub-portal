@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T00:30:01.441Z",
+  "updatedAt": "2026-09-28T00:30:01.529Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -548,7 +548,7 @@
     {
       "provider": "github",
       "type": "trial",
-      "register_url": "https://github.com/Smithsonian/smithsonian-openaccess",
+      "register_url": "https://github.com/CrossRef/rest-api-doc",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -766,7 +766,7 @@
       "type": "trial",
       "register_url": "https://catboys.com/api",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": false,
+      "needs_proxy": true,
       "review": "unknown"
     },
     {
@@ -844,9 +844,9 @@
     {
       "provider": "waifu",
       "type": "trial",
-      "register_url": "https://waifu.im/docs",
+      "register_url": "https://waifu.pics/docs",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": false,
+      "needs_proxy": true,
       "review": "unknown"
     },
     {
@@ -926,7 +926,7 @@
       "type": "trial",
       "register_url": "https://support.mywot.com/hc/en-us/sections/360004477734-API-",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": false,
+      "needs_proxy": true,
       "review": "unknown"
     },
     {
@@ -998,7 +998,7 @@
       "type": "trial",
       "register_url": "https://img.icons8.com/",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": false,
+      "needs_proxy": true,
       "review": "unknown"
     },
     {
@@ -1422,7 +1422,7 @@
       "type": "trial",
       "register_url": "https://meirra.com/api",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": false,
+      "needs_proxy": true,
       "review": "unknown"
     },
     {
@@ -1444,7 +1444,7 @@
     {
       "provider": "signaliz",
       "type": "trial",
-      "register_url": "https://signaliz.docs.buildwithfern.com/signaliz-api-public-docs/introduction",
+      "register_url": "https://signaliz.docs.buildwithfern.com/signaliz-api-public-docs/introducti",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -1518,7 +1518,7 @@
       "type": "trial",
       "register_url": "https://invoicein.peculiar.systems/",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": false,
+      "needs_proxy": true,
       "review": "unknown"
     },
     {
@@ -1574,7 +1574,7 @@
       "type": "trial",
       "register_url": "https://breedhealthscore.com/developers/",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": false,
+      "needs_proxy": true,
       "review": "unknown"
     },
     {
@@ -1637,6 +1637,22 @@
       "provider": "api-thirukkural",
       "type": "trial",
       "register_url": "https://api-thirukkural.web.app/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "thecolorapi",
+      "type": "trial",
+      "register_url": "https://www.thecolorapi.com",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "rankfabrik",
+      "type": "trial",
+      "register_url": "https://rankfabrik.com/produits/etablissements",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
