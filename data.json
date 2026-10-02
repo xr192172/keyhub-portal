@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T00:30:01.989Z",
+  "updatedAt": "2026-10-02T00:30:01.959Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -446,7 +446,7 @@
       "type": "trial",
       "register_url": "https://discord.com/invite/hgjA78638n/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -630,7 +630,7 @@
       "type": "trial",
       "register_url": "https://documenter.getpostman.com/view/664302/S1ENwy59",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -766,7 +766,7 @@
       "type": "trial",
       "register_url": "https://catboys.com/api",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -830,7 +830,7 @@
       "type": "trial",
       "register_url": "https://ghibliapi.vercel.app",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -846,7 +846,7 @@
       "type": "trial",
       "register_url": "https://waifu.pics/docs",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -998,7 +998,7 @@
       "type": "trial",
       "register_url": "https://img.icons8.com/",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -1134,7 +1134,7 @@
       "type": "trial",
       "register_url": "https://dev.blockscout.com/",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -1174,7 +1174,7 @@
       "type": "trial",
       "register_url": "https://etherscan.io/apis",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -1188,7 +1188,7 @@
     {
       "provider": "developers",
       "type": "trial",
-      "register_url": "https://developers.freelancer.com",
+      "register_url": "https://developers.google.com/analytics/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -1238,7 +1238,7 @@
       "type": "trial",
       "register_url": "https://gita-api.vercel.app",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -1262,7 +1262,7 @@
       "type": "trial",
       "register_url": "https://kdp-intelligence-api.vercel.app/docs",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -1270,7 +1270,7 @@
       "type": "trial",
       "register_url": "https://openlibrary.org/developers/api",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -1294,7 +1294,7 @@
       "type": "trial",
       "register_url": "https://alquran.cloud/api",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -1302,7 +1302,7 @@
       "type": "trial",
       "register_url": "https://runyankole-bible-api.vercel.app",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
       "review": "unknown"
     },
     {
@@ -1678,7 +1678,15 @@
       "type": "trial",
       "register_url": "https://registry.modelcontextprotocol.io/v0/servers?search=corpus-cloud-pricing",
       "note": "采集自 public-apis（heuristic）",
-      "needs_proxy": true,
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "wizard-world-api",
+      "type": "trial",
+      "register_url": "https://wizard-world-api.herokuapp.com/swagger/index.html",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
       "review": "unknown"
     }
   ],
