@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T00:30:02.001Z",
+  "updatedAt": "2026-10-04T00:30:01.972Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -1685,6 +1685,22 @@
       "provider": "wizard-world-api",
       "type": "trial",
       "register_url": "https://wizard-world-api.herokuapp.com/swagger/index.html",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "rafont",
+      "type": "trial",
+      "register_url": "https://rafont.com/api-docs",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "dwellir",
+      "type": "trial",
+      "register_url": "https://www.dwellir.com/docs",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
