@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T00:30:01.972Z",
+  "updatedAt": "2026-10-05T00:30:02.023Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -1564,7 +1564,7 @@
     {
       "provider": "glama",
       "type": "trial",
-      "register_url": "https://glama.ai/mcp/servers/@github/github-mcp-server",
+      "register_url": "https://glama.ai/mcp/servers/RAAAAAGEEEEE/vuntum-mcp",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -1701,6 +1701,22 @@
       "provider": "dwellir",
       "type": "trial",
       "register_url": "https://www.dwellir.com/docs",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "meetkuro",
+      "type": "trial",
+      "register_url": "https://meetkuro.com/agents/",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "regsentry",
+      "type": "trial",
+      "register_url": "https://regsentry.com/mcp-guide",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
