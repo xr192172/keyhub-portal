@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T00:30:02.023Z",
+  "updatedAt": "2026-10-06T00:30:01.993Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -844,7 +844,7 @@
     {
       "provider": "waifu",
       "type": "trial",
-      "register_url": "https://waifu.pics/docs",
+      "register_url": "https://waifu.im/docs",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -956,7 +956,7 @@
     {
       "provider": "developer",
       "type": "trial",
-      "register_url": "https://developer.iconfinder.com",
+      "register_url": "https://developer.dribbble.com",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -1188,7 +1188,7 @@
     {
       "provider": "developers",
       "type": "trial",
-      "register_url": "https://developers.google.com/analytics/",
+      "register_url": "https://developers.freelancer.com",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -1717,6 +1717,38 @@
       "provider": "regsentry",
       "type": "trial",
       "register_url": "https://regsentry.com/mcp-guide",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "siliconfloor",
+      "type": "trial",
+      "register_url": "https://siliconfloor.com/docs/mcp",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "claude",
+      "type": "trial",
+      "register_url": "https://claude.ai/directory/silicon-floor",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "pickshade",
+      "type": "trial",
+      "register_url": "https://pickshade.com/api",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "openbookrank",
+      "type": "trial",
+      "register_url": "https://openbookrank.com/en/open-data",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
