@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T00:30:01.320Z",
+  "updatedAt": "2026-10-11T00:30:01.287Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -548,7 +548,7 @@
     {
       "provider": "github",
       "type": "trial",
-      "register_url": "https://github.com/fawazahmed0/quran-api#readme",
+      "register_url": "https://github.com/Smithsonian/smithsonian-openaccess",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -956,7 +956,7 @@
     {
       "provider": "developer",
       "type": "trial",
-      "register_url": "https://developer.dribbble.com",
+      "register_url": "https://developer.iconfinder.com",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -1188,7 +1188,7 @@
     {
       "provider": "developers",
       "type": "trial",
-      "register_url": "https://developers.freelancer.com",
+      "register_url": "https://developers.steem.io/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
