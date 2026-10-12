@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T00:30:01.287Z",
+  "updatedAt": "2026-10-12T00:30:02.102Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -548,7 +548,7 @@
     {
       "provider": "github",
       "type": "trial",
-      "register_url": "https://github.com/Smithsonian/smithsonian-openaccess",
+      "register_url": "https://github.com/fawazahmed0/quran-api#readme",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -596,7 +596,7 @@
     {
       "provider": "docs",
       "type": "trial",
-      "register_url": "https://docs.crustdata.com",
+      "register_url": "https://docs.api.bible",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -1188,7 +1188,7 @@
     {
       "provider": "developers",
       "type": "trial",
-      "register_url": "https://developers.steem.io/",
+      "register_url": "https://developers.google.com/books/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -1564,7 +1564,7 @@
     {
       "provider": "glama",
       "type": "trial",
-      "register_url": "https://glama.ai/mcp/servers/RAAAAAGEEEEE/vuntum-mcp",
+      "register_url": "https://glama.ai/mcp/servers/@github/github-mcp-server",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -1749,6 +1749,14 @@
       "provider": "openbookrank",
       "type": "trial",
       "register_url": "https://openbookrank.com/en/open-data",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "agentnexus",
+      "type": "trial",
+      "register_url": "https://agentnexus.app",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
