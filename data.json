@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T00:30:01.462Z",
+  "updatedAt": "2026-10-16T00:30:02.038Z",
   "free": [
     {
       "provider": "nvidia_nim",
@@ -844,7 +844,7 @@
     {
       "provider": "waifu",
       "type": "trial",
-      "register_url": "https://waifu.im/docs",
+      "register_url": "https://waifu.pics/docs",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -1036,7 +1036,7 @@
     {
       "provider": "data",
       "type": "trial",
-      "register_url": "https://data.rijksmuseum.nl/object-metadata/api/",
+      "register_url": "https://data.rijksmuseum.nl/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -1164,7 +1164,7 @@
     {
       "provider": "covalenthq",
       "type": "trial",
-      "register_url": "https://www.covalenthq.com/docs/api/",
+      "register_url": "https://www.covalenthq.com/docs/",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -1556,7 +1556,7 @@
     {
       "provider": "cursor",
       "type": "trial",
-      "register_url": "https://cursor.directory/plugins/apilayer-mcp-adapter",
+      "register_url": "https://cursor.directory/plugins/skyaccess",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -1564,7 +1564,7 @@
     {
       "provider": "glama",
       "type": "trial",
-      "register_url": "https://glama.ai/mcp/servers/@github/github-mcp-server",
+      "register_url": "https://glama.ai/mcp/servers/RAAAAAGEEEEE/vuntum-mcp",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
@@ -1757,6 +1757,14 @@
       "provider": "agentnexus",
       "type": "trial",
       "register_url": "https://agentnexus.app",
+      "note": "采集自 public-apis（heuristic）",
+      "needs_proxy": false,
+      "review": "unknown"
+    },
+    {
+      "provider": "3dtexel",
+      "type": "trial",
+      "register_url": "https://3dtexel.com/developers/#public-api",
       "note": "采集自 public-apis（heuristic）",
       "needs_proxy": false,
       "review": "unknown"
